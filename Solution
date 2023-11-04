@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-int x;
-int t=0;
-int soe=0;
-int r;
+int x;  //To get size of array
+int t=0; //To count the total price of items chef purchased
+int soe=0; //sum of price of items to count the price of all items
+int r; //Minimum freshness value required to categories that item in fresh
 cout<<"Enter the number of items available in store: "<<endl;
 cin>>x;
 int a[x],b[x];
